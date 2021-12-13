@@ -23,7 +23,7 @@ body{
 }
 .fas{
   position: inherit;
-  margin-left: 1000px;
+  margin-left: 1270px;
   margin-top: 0px;
 }
 .nav-wrapper .big-login{
@@ -33,6 +33,24 @@ body{
   top: 0;
   right: 0;
 
+}
+.big-login, .big-register{
+  background-color: #F40612;
+  color: #FFFFFF;
+  border-radius: 7px;
+  border-width: 2px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 200;
+  text-transform: uppercase;
+  transition: all 0.3s ease 0s;
+  
+  
+}
+.big-login:hover{
+  background-color: #e9280f;
+  color: #FFFFFF;
+  
 }
 input{
     width: 90%;
