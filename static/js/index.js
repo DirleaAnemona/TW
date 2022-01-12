@@ -43,7 +43,12 @@ const createElements = (x) => {
     overlay.appendChild(text);
     let btn = document.createElement("button");
     btn.className="add-to-cart";
-    btn.innerHTML = "Add to Cart";
+    btn.innerHTML="Add to Cart";
+    btn.onclick = function () {
+        alert("Added to cart");
+        
+      };
+      
     overlay.appendChild(btn);
     let text2 = document.createElement('div');
     text2.className= "text2"
@@ -128,5 +133,7 @@ const fetchName=()=>{
         getMovies()
       };
       
+
+
 
 
